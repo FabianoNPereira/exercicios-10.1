@@ -1,7 +1,12 @@
 import Header from "./Header";
+import Content from "./Content";
 
 function App() {
-  return (<Header />);
+  return (
+    <div>
+      <Header />
+      <Content />
+    </div>);
 }
 
 export default App;
