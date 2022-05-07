@@ -5,8 +5,12 @@ const Task = (value) => {
   );
 }
 
+const compromissos = ['dormir', 'caminhar', 'estudar', 'tarefas de casa', 'estudar momentos sincrono trybe', 'exercicio trybe'];
+
+const listaCompromissos = compromissos.map((compromissos)=> Task(compromissos)); 
+
 function App() {
-  return (Task('Fabiano'));
+  return (Task(listaCompromissos));
 }
 
 export default App;
