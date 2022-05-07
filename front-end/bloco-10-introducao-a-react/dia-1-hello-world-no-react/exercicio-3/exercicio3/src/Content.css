@@ -1,0 +1,21 @@
+.conteudos {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-radius: 10px;
+    border: 10px;
+    width: 28rem;
+    margin-left: 25%;
+    padding: 1rem;
+    
+}
+
+.card-conteudo {
+    background-color: rgb(163, 159, 159);
+    border-radius: 10px;
+    border: 10px;
+    border-color: black;
+    width: 25rem;
+}
+
