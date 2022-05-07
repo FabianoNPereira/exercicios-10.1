@@ -7,10 +7,14 @@ const Task = (value) => {
 
 const compromissos = ['dormir', 'caminhar', 'estudar', 'tarefas de casa', 'estudar momentos sincrono trybe', 'exercicio trybe'];
 
-const listaCompromissos = compromissos.map((compromissos)=> Task(compromissos)); 
-
 function App() {
-  return (Task(listaCompromissos));
+  return (
+    <div className="compromissos">
+      {compromissos.map((compromisso)=> (
+        <li>{compromisso}</li>
+      ))}
+    </div>
+  );
 }
 
 export default App;
